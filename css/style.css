@@ -1,0 +1,643 @@
+/*
+Author Name:Fahima Alam;
+Mail Address:fahima.alam.11@gmail.com ;
+Site url:;
+GPL license:3.4.1;
+*/
+
+/*
+====Index====
+1. Header
+2. Home
+3. About us
+4. Our Approch
+5. Our Work
+6. Footer
+*/
+
+/* Global css*/
+body{
+  font-family: 'Oswald', sans-serif;
+}
+h1{
+  font-size: 48px;
+  color: #fff;
+}
+h2{
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+h3{
+  font-size: 36px;
+  color: #4C4C4C;
+}
+h4{
+  font-size: 16px;
+  color: #4C4C4C;
+  margin-top: 25px;
+}
+h5{
+  font-size:28px;
+  color: #fff;
+  font-family: 'Pattaya', sans-serif;
+}
+h6{
+  font-size: 15px;
+  color: #fff;
+}
+p{
+  font-size: 15px;
+  color: #4C4C4C;
+  line-height: 30px;
+}
+
+
+/* button css*/
+.cstm-btn-one{
+   background-color: #DE2B24;
+   font-size: 15px;
+   color: #fff;
+   display: block;
+   margin: 15px 65px;
+   padding: 7px 32px;
+   border-radius: 5px;
+   border: navajowhite;
+}
+.cstm-btn-two{
+   background-color:#F8CD53;
+   font-size: 15px;
+   color: #fff;
+   display: block;
+   margin: 20px auto;
+   padding: 10px 32px;
+   border-radius: 8px;
+   border: navajowhite;
+}
+
+.cstm-btn-three{
+   background-color:#DE2B24;
+   font-size: 15px;
+   color: #fff;
+   display: block;
+   margin: 20px auto;
+   padding: 10px 32px;
+   border-radius: 8px;
+   border: navajowhite;
+}
+/* theme css*/
+
+/*********************** top section ***********************/
+header{
+  background-color: #F0F2F4;
+}
+.top-head{
+}
+.top-content{
+  font-size: 12px;
+}
+.top-content ul{
+  float: right;
+}
+.top-content ul li{
+  display: inline-block;
+}
+.fa.fa-mobile{
+  font-size: 24px;
+}
+.top-text{
+  padding: 0px 10px;
+  color: #424242;
+}
+.vl {
+    border-left: 2px solid #E2E2E2;
+    padding: 20px 0px; 
+}
+.fa.fa-envelope{
+  font-size: 21px;
+}
+.fa.fa-facebook-official{
+  background-color: #1287BF;
+  padding: 6px 6px;
+  color:#fff;
+}
+
+/********************** menu section***********************/
+.nav-link.js-scroll-trigger{
+}
+.nav-link{
+  font-size: 16px;
+  color: #424242;
+}
+.nav-link:hover{
+  color: #DE2B24;
+}
+.navbar-brand{
+}
+.nav-head{
+}
+
+/***********************hero section start***********************/
+.hero{
+  background: url(../img/banner.jpg)no-repeat center top;
+  background-size: cover;
+  padding-bottom: 130px;
+}
+.hero-title{
+  padding-top: 170px;
+  text-align: center;
+  padding-bottom: 120px;
+}
+/*feature section start*/
+.feature{
+}
+.feature-title{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.feature-img{
+  padding-top: 40px;
+  text-align: center;
+}
+.feature-title span{
+  border: 2px solid #4C4C4C;
+  display: block;
+  width: 20%;
+  margin: 20px auto;
+}
+
+
+/***********************approch section start***********************/
+.approch{
+  background: #F3F3F3;
+}
+.approch-title{
+  text-align: center;
+}
+.approch-left{
+  padding: 0px;
+  margin: 0px;
+  background: #fff;
+}
+.approch-img{
+  padding: 0px;
+}
+.approch-content{
+  padding: 0px 77px;
+}
+.approch-padding{
+  margin-top: 25px;
+}
+.our-approach-one{
+  position: relative;
+  width: 100%;
+}
+.first-step{
+  background: #DE2B24;
+  text-align: center;
+  color: #fff;
+  width: 34%;
+  position: absolute;
+  top: 31px;
+  right: -45px;
+  border: 2px solid #fff;
+}
+.our-approach-two{
+  position: relative;
+  width: 100%;
+}
+.second-step{
+  background: #DE2B24;
+  text-align: center;
+  color: #fff;
+  width: 40%;
+  position: absolute;
+  top: 25px;
+  right: 172px;
+  border: 2px solid #fff;
+}
+.approch-title span{
+  border: 1px solid #4C4C4C;
+  display: block;
+  width: 20%;
+  margin: 20px auto;
+}
+
+/***********************gallery section start***********************/
+
+
+.gallery{
+  background: #DE2B24;
+}
+.gallery-title{
+  text-align: center;
+}
+.gallery-title span{
+  border: 1px solid #fff;
+  display: block;
+  width: 20%;
+  margin: 37px auto;
+}
+.gallery-second{
+
+}
+.gallery-img{
+  padding: 0px;
+}
+
+
+/***********************touch section start***********************/
+.touch{
+  background:#2A2A2A;
+}
+.form-control{
+  margin: 30px auto;
+  display: block;
+  width: 65%;
+  padding: 15px 10px;
+  background:#515151;
+  color: #fff;
+  border: none;
+}
+.list-items{
+  margin: 30px 0px;
+}
+.list-items i{
+  background:transparent;
+  padding: 7px;
+  margin: 2px;
+  font-size: 30px;
+  border: 2px solid #3C3C3C;
+  width: 54px;
+  color:#fff;
+}
+.list-items i:hover{
+  border: 2px solid #DE2B24;
+}
+
+/***********************analysis section start***********************/
+.analysis{
+  background:#1287BF;
+}
+.analysis-title{
+  text-align: center;
+}
+.icons{
+    text-align: center;
+}
+.fa.fa-chevron-circle-down {
+    font-size: 40px;
+    color: #ffffffcf;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.contact-form{
+    background: #FFFFFF;
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.form-control-2{
+  margin: 30px auto;
+  display: block;
+  width: 70%;
+  padding: 3px 7px;
+  background:transparent;
+  color:#2A2A2A;
+  border: 1px solid #1287BF;
+
+}
+.triangle-up {
+    width: 0px;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 35px solid #fff;
+    position: absolute;
+    top: -35px;
+    left: 46%;
+}
+
+
+/***********************footer section start***********************/
+footer{
+}
+.footer-content{
+  background:#515151;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+
+
+
+/*media query*/
+/******************mobile device******************/
+@media (min-width: 320px) and (max-width: 500px){
+  body{
+}
+.cstm-btn-one{
+   font-size: 9px;
+   padding: 4px 4px;
+   border-radius: 1px;
+}
+.navbar-brand{
+  width: 25%;
+}
+.nav-head{
+}
+.hero{
+  padding-bottom: 30px;
+}
+.hero-title{
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+h1{
+  font-size: 20px;
+}
+h2{
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.cstm-btn-two{
+   font-size: 9px;
+   padding: 4px 4px;
+   border-radius: 1px;
+}
+
+h3{
+  font-size: 18px;
+}
+h4{
+  font-size: 14px;
+  margin-top: 5px;
+}
+p{
+  font-size: 10px;
+  line-height: 12px;
+}
+.feature-title span{
+  border: 1px solid #4C4C4C;
+  display: block;
+  width: 20%;
+  margin: 20px auto;
+}
+h5{
+  font-size:18px;
+}
+h6{
+  font-size: 10px;
+}
+.approch-content{
+  padding: 0px 45px;
+  width: 75%;
+}
+.approch-padding{
+  margin-top: 15px;
+}
+.our-approach-one{
+  position: relative;
+  width: 25%;
+}
+
+.first-step{
+  top: 14px;
+  right: -20px;
+  width: 30%;
+}
+.second-step{
+  top: 9px;
+  right: 92px;
+  width: 30%;
+}
+.approch-title span{
+  width: 20%;
+  margin: 15px auto;
+}
+.gallery-img{
+  text-align: center;
+}
+.triangle-up {
+    left: 44%;
+}
+.form-control{
+  margin: 30px auto;
+  display: block;
+  width: 65%;
+  padding: 15px 10px;
+  background:#515151;
+  color: #fff;
+  border: none;
+}
+
+.list-items i{
+  font-size: 20px;
+  border: 1px solid #3C3C3C;
+}
+.list-items i:hover{
+  border: 1px solid #DE2B24;
+}
+.cstm-btn-three{
+   font-size: 12px;
+}
+
+}
+/*****************small device*****************/
+@media (min-width: 501px) and (max-width: 768px){
+    body{
+}
+.cstm-btn-one{
+   font-size: 11px;
+   padding: 5px 12px;
+}
+.navbar-brand{
+  width: 30%;
+}
+.hero{
+  padding-bottom: 70px;
+}
+.hero-title{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+h1{
+  font-size: 35px;
+}
+h2{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.cstm-btn-two{
+   font-size: 11px;
+   padding: 5px 12px;
+}
+
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size: 17px;
+  margin-top: 10px;
+}
+p{
+  font-size: 12px;
+  line-height: 12px;
+}
+.feature-title span{
+  border: 1px solid #4C4C4C;
+  display: block;
+  width: 20%;
+  margin: 20px auto;
+}
+h5{
+  font-size:20px;
+}
+h6{
+  font-size: 10px;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 18px;
+  margin-top: 18px;
+}
+p{
+  font-size: 13px;
+  line-height: 17px;
+}
+.approch-content{
+  padding: 0px 34px;
+  width: 75%;
+}
+.approch-padding{
+  margin-top: 15px;
+}
+.our-approach-one{
+  position: relative;
+  width: 25%;
+}
+
+.first-step{
+  top: 14px;
+  right: -20px;
+  width: 25%;
+}
+.second-step{
+  top: 13px;
+  right: 104px;
+  width: 25%;
+}
+.approch-title span{
+  width: 20%;
+  margin: 15px auto;
+  border: 1px solid #4C4C4C;
+  margin-bottom: 20px;
+}
+.triangle-up {
+    left: 45%;
+}
+.gallery-img{
+  text-align: center;
+}
+}
+
+
+/*medium device*/
+@media (min-width: 769px) and (max-width: 991px){
+    body{
+    }
+h4{
+  font-size: 14px;
+  margin-top: 6px;
+}
+p{
+  font-size: 11px;
+  line-height: 17px;
+}
+
+h5{
+  font-size:15px;
+}
+h6{
+  font-size: 10px;
+}
+
+.approch-content{
+  padding: 0px 34px;
+  width: 75%;
+}
+.approch-padding{
+  margin-top: 15px;
+}
+.our-approach-one{
+  position: relative;
+  width: 25%;
+}
+
+.first-step{
+  top: 14px;
+  right: -20px;
+  width: 25%;
+}
+.second-step{
+  top: 13px;
+  right: 104px;
+  width: 25%;
+}
+.approch-title span{
+  width: 20%;
+  margin: 15px auto;
+}
+.triangle-up {
+    left: 42%;
+}
+
+}
+
+/*medium device*/
+@media (min-width: 992px) and (max-width: 1200px){
+    body{
+}
+h5{
+  font-size:20px;
+}
+h6{
+  font-size: 10px;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 18px;
+  color: #4C4C4C;
+  margin-top: 18px;
+}
+p{
+  font-size: 13px;
+  line-height: 17px;
+}
+.first-step{
+  top: 30px;
+  right: -38px;
+  width: 35%;
+}
+.second-step{
+  top: 21px;
+  right: 145px;
+  width: 35%;
+}
+.approch-title span{
+  width: 20%;
+  margin: 15px auto;
+}
+}
+/*large device*/
+@media (min-width: 1201px) {
+    body{
+}
+}
